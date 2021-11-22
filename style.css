@@ -1,0 +1,278 @@
+
+/*index heading*/
+
+#headFoto {
+    width: 1300px;
+    height:300px;
+    background-image: url(images/set23.jpg);
+    background-size: 1290px 300px;
+    background-repeat: no-repeat;
+    
+}
+ 
+.header  {
+    font-family: 'Ephesis', cursive;
+    font-size: 120px;
+    color: whitesmoke;
+    margin-top: 2px;
+    position: absolute;
+    top: 175px; 
+    left: 20px;
+} 
+
+.subtitle {
+    font-family:'Bebas Neue', cursive;
+    font-size: 35px;
+    font-style: bold;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    
+}
+
+#headText  {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/*index content*/
+
+ .gastronomy, .tourism, .entertainment, .culture, .education  {
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px; 
+    font-style: bold;
+    color: black;
+    
+    
+}
+
+#gastronomy, #tourism, #entertainment, #culture, #education  {
+    justify-content: space-around;
+    margin-bottom: 130px;
+    
+}
+a  {
+    color: black;
+    text-decoration: none; 
+}
+a:hover  {
+    color: grey;
+    text-decoration: underline;
+}
+
+
+.sardinha, .baia, .jumpUp, .casaCultura, .ips  {
+    width: 390px;
+    height: 300px;
+    margin-right: 25px;
+    border-radius: 0px 45px 0px 45px;
+}
+
+
+.choco, .troia, .jump, .mercado, .ips4  {
+    width: 390px;
+    height: 300px;  
+    margin-right: 25px;
+    border-radius: 0px 45px 0px 45px;
+}
+
+
+.tortas, .forte, .dolphins, .todi, .ehts   {
+    width: 390px;
+    height: 300px;
+    border-radius: 0px 45px 0px 45px;
+}
+
+
+
+.gastronomy2  {
+    margin-top: 70px;
+    margin-bottom: 140px;
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 55px; 
+    font-style: bold;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*gastronomy*/
+
+#container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+.foto  {
+    width: 450px;
+    height: 250px;
+    border-radius: 0px 45px 0px 45px;
+}
+
+
+
+.foto:hover{
+    opacity: 70%;
+}
+
+.restaurants  {
+    text-align: first;
+    font-family:'Bebas Neue', cursive;
+    font-size: 45px;
+    color: black;
+    margin-top: 25px; 
+    margin-bottom: 25px;  
+      
+}
+
+.restaurants2  {
+    text-align: center;
+    font-family:'Bebas Neue', cursive;
+    font-size: 45px;
+    color: black;
+    bottom: 34px;
+    position:relative;
+    margin-top: 55px; 
+          
+}
+
+#restaurants2  {
+    position: relative;
+    top: 35px;
+}
+
+
+
+
+.kitchen   {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 2px;
+    
+
+}
+
+#article  {
+    position: relative;
+    margin-top: 5px;
+}
+
+/*tourism*/
+
+.fotosTourism  {
+    width: 550px;
+    height: 250px;
+    border-radius: 0px 45px 0px 45px;
+    
+}
+.fotosTourism:hover{
+    opacity: 70%;
+}
+
+.source  {
+    font-size:10px;
+}
+
+
+.container1  {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 60px;
+    justify-content: space-around;
+}
+
+
+
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 60px;
+    justify-content: space-around;
+}
+
+
+.gastronomy3  {
+    margin-top: 70px;
+    margin-bottom: 140px;
+    margin-left: 0px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 55px; 
+    font-style: bold;
+    color: black;
+}
+
+
+ /*Entertainment*/
+
+
+
+ .fotosEntertainment {
+     width: 550px;
+     height: 300px;
+     border-radius: 0px 45px 0px 45px;
+ }
+
+ .fotosEntertainment:hover {
+     opacity: 70%;
+    
+}
+
+footer {
+    
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      
+        vertical-align: -.125em;
+        fill: currentColor;
+        height: 70%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
+}
+
+/* Responsive Media Query */
+
+@media (max-width: 1190px) {
+    
+  }
+
+  @media (max-width: 1000px) {
+    
+  }
+
+  @media (max-width: 900px) {
+  
+  }
+  
+  @media (max-width: 750px) {
+   
+  }
+  
+  @media (max-width: 500px){
+   
+    #container  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        
+    
+    }
+  }
+
