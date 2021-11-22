@@ -282,7 +282,7 @@ footer {
         
     }
       
-   @media (max-width: 300px){
+    @media (max-width: 300px){
    
     #container  {
         display: flex;
@@ -292,12 +292,16 @@ footer {
     }
 
     #headFoto {
-        width: 500px;
-        height:300px;
+        width: 300px;
+        height:1500px;
         background-image: url(images/set23.jpg);
         background-size: auto;
         background-repeat: no-repeat;
         
     }
+      
+  
+
+
   }
 
