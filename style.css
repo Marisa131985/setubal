@@ -270,7 +270,7 @@ footer {
     #headFoto {
         width: 500px;
         height:300px;
-        background-image: url(images/set23.jpg);
+        background-image: url(set23.jpg);
         background-size: 500px 300px;
         background-repeat: no-repeat;
         
@@ -306,7 +306,7 @@ footer {
     #headFoto {
         width: 450px;
         height:300px;
-        background-image: url(images/set23.jpg);
+        background-image: url(set23.jpg);
         background-size: 450px 300px;
         background-repeat: no-repeat;
         /*height: 100vh;
