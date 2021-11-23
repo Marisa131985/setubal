@@ -245,7 +245,6 @@ footer {
         font-family: 'Dosis', sans-serif;
         font-size: 15px;
 }
-
 /* Responsive Media Query */
 
 @media (max-width: 1190px) {
@@ -259,7 +258,8 @@ footer {
   @media (max-width: 900px) {
   
   }
-@media (max-width: 750px) {
+  
+  @media (max-width: 750px) {
     #container  {
         display: flex;
         flex-direction: column;
@@ -286,11 +286,12 @@ footer {
         height: 300px;
         border-radius: 0px 45px 0px 45px;
     }
-     .restaurants  {
+    .restaurants  {
         width: 500px;
         height: 300px;
    
   }
+   
   }
   
   @media (max-width: 500px){
@@ -303,31 +304,32 @@ footer {
     }
 
     #headFoto {
-        width: 500px;
+        width: 450px;
         height:300px;
         background-image: url(images/set23.jpg);
-        background-size: 500px 300px;
+        background-size: 450px 300px;
         background-repeat: no-repeat;
+        /*height: 100vh;
+        max-width: 400px;
+        width: 100%;*/
         
     }
     .fotosTourism  {
-        width: 500px;
+        width: 450px;
         height: 250px;
         border-radius: 0px 45px 0px 45px;
         
     }
     .fotosEntertainment {
-        width: 500px;
+        width: 450px;
         height: 300px;
         border-radius: 0px 45px 0px 45px;
     }
-   
     .restaurants  {
-        width: 500px;
+        width: 450px;
         height: 300px;
    
   }
-
-
-  }
+  
+}
 
