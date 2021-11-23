@@ -268,7 +268,7 @@ footer {
     }
 
     #headFoto {
-        width: 500px;
+        width: 400px;
         height:300px;
         background-image: url(set23.jpg);
         background-size: 500px 300px;
@@ -276,18 +276,18 @@ footer {
         
     }
     .fotosTourism  {
-        width: 500px;
+        width: 400px;
         height: 250px;
         border-radius: 0px 45px 0px 45px;
         
     }
     .fotosEntertainment {
-        width: 500px;
+        width: 400px;
         height: 300px;
         border-radius: 0px 45px 0px 45px;
     }
     .restaurants  {
-        width: 500px;
+        width: 400px;
         height: 300px;
    
   }
@@ -304,10 +304,10 @@ footer {
     }
 
     #headFoto {
-        width: 450px;
+        width: 400px;
         height:300px;
         background-image: url(set23.jpg);
-        background-size: 450px 300px;
+        background-size: 400px 300px;
         background-repeat: no-repeat;
         /*height: 100vh;
         max-width: 400px;
@@ -315,18 +315,18 @@ footer {
         
     }
     .fotosTourism  {
-        width: 450px;
+        width: 400px;
         height: 250px;
         border-radius: 0px 45px 0px 45px;
         
     }
     .fotosEntertainment {
-        width: 450px;
+        width: 400px;
         height: 300px;
         border-radius: 0px 45px 0px 45px;
     }
     .restaurants  {
-        width: 450px;
+        width: 400px;
         height: 300px;
    
   }
